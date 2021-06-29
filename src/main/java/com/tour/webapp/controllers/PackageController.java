@@ -18,7 +18,7 @@ import com.tour.webapp.model.Packages;
 import com.tour.webapp.services.PackageService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin()
 public class PackageController {
 	
 	@Autowired
