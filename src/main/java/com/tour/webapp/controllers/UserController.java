@@ -19,7 +19,7 @@ import com.tour.webapp.model.Users;
 import com.tour.webapp.services.UserService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin()
 public class UserController {
 	
 	@Autowired
