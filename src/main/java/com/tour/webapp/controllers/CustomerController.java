@@ -19,7 +19,7 @@ import com.tour.webapp.model.Customers;
 import com.tour.webapp.services.CustomerService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://tourism-app-sdd.herokuapp.com")
 public class CustomerController {
 	
 	@Autowired
