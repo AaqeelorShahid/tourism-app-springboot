@@ -19,7 +19,7 @@ import com.tour.webapp.model.Hotels;
 import com.tour.webapp.services.HotelService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin()
 public class HotelController {
 	
 	@Autowired
